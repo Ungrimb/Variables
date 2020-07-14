@@ -8,14 +8,14 @@ namespace Variables
         {
             string nom = "Ismael", cognom1 = "Anaya", cognom2 = "Marquez", frase1= "El meu any de naixement és de traspàs", frase2= "El meu any de naixement no és de traspàs";
             int dia = 10, mes = 04, any = 1976, numberTraspas, anyInici = 1948;
-            const int traspas = 1948;
+            const int TRASPAS = 1948;
             bool bisiesto = false;
 
             Console.WriteLine("FASE 1");
             Console.WriteLine($"{cognom1} { cognom2}, {nom}");
             Console.WriteLine($"{dia}/{mes}/{any}");
 
-            numberTraspas = (any - traspas) / 4;
+            numberTraspas = (any - TRASPAS) / 4;
 
             Console.WriteLine("FASE 2");
             Console.WriteLine(numberTraspas);
